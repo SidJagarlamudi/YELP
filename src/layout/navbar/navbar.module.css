@@ -1,0 +1,13 @@
+:local(.container){
+    height: 50px;
+    width: 100%;
+    background: grey;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+:local(.reactImg){
+    width: 40px;
+    height: 40px;
+}

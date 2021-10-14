@@ -1,0 +1,31 @@
+:local(.container){
+    padding: 20px;
+    letter-spacing: .5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+:local(.img){
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    max-height: 400px;
+    margin-bottom: 15px;
+}
+
+:local(.h2){
+    margin-bottom: 15px;
+    letter-spacing: 1.3px;
+}
+
+:local(span){
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+:local(a){
+    text-decoration: none;
+    color: black;
+}
